@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contact us ♥ || La tiendita</title>
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header no-margin container">
+        <h1 class="no-margin center">La Tiendita <span>nueva</span> </h1>
+    </header>
+
+    <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="./us.html">About</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./gallery.html">Gallery </a>
+        <a class="navbar__view--on" href="./contact.html">Contact</a>
+    </nav>
+
+    <main class="container">
+        <h2 class="center">Contact</h2>
+
+        <form class="contact-form"  method="post">
+            <fieldset>
+                <legend>Personal Data</legend>
+
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="name" id="email" placeholder="Your email" required>
+                </div>
+
+                <div class="field">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="name" id="phone" placeholder="Your numbrer" required>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="20" rows="10"></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Country</legend>
+                <div class="field">
+                    <label for="country">Country</label>
+                    <select name="" id="country" required>
+                        <option selected value="">-- select --</option>
+                        <option value="ar">Argentina</option>
+                        <option value="br">Brazil</option>
+                        <option value="pr">Peru</option>
+                        <option value="it">Italia</option>
+                        <option value="es">Spain</option>
+                    </select>
+
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Another info</legend>
+                <div class="field">
+                    <label for="client">Client</label>
+                    <input type="radio" id="client" name="type" value="client" required>
+                </div>
+
+                <div class="field">
+                    <label for="supplier">Supplier</label>
+                    <input type="radio" id="supplier" name="type" value="supplier" required>
+                </div>
+
+                <div class="field">
+                    <label for="category">Category</label>
+                    <input type="text" list="category" name="mycategory" required>
+                    <datalist id="category">
+                        <option value="bakery"></option>
+                        <option value="vegetables and fruits"></option>
+                        <option value="Candies"></option>
+
+                    </datalist>
+
+                </div>
+            </fieldset>
+            <input class="btn" type="submit" value="Sent">
+        </form>
+    </main>
+
+    <footer >
+        <div class="footer">
+            <div class="container footer-grid">
+                <div >
+                    <h3 class="no-margin">Categories</h3>
+                    <nav class="nav-footer">
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                    </nav>
+                </div>
+        
+                <div>
+                    <h3 class="no-margin">About us</h3>
+                    <nav class="nav-footer">
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                    </nav>
+                </div>
+        
+                <div>
+                    <h3 class="no-margin">Support</h3>
+                    <nav class="nav-footer">
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <p class="rights">All rights reserverd. &copy; Nehuen Perticarari 2022.</p>
+
+    </footer>
+</body>
+</html>
